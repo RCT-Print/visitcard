@@ -47,6 +47,13 @@ body.purple {
   --primary-color-dark: #7a4afd;
 }
 
+body.yelow {
+  --bg-color: #FFF0F6;
+  --text-color: #7a4afd;
+  --primary-color: #f9ffa3;
+  --primary-color-dark: #7a4afd;
+}
+
 body{
   background: var(--bg-color);
   color: var(--text-color);
