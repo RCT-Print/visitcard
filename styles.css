@@ -15,10 +15,18 @@ html{
   --primary-color-dark: #364FC7;
 }
 
+body {
+  background: var(--bg-color) url('URL_DA_IMAGEM_DE_FUNDO') no-repeat center center fixed;
+  background-size: cover; /* Esta linha garante que a imagem cubra todo o fundo */
+  color: var(--text-color);
+  font-family: 'Roboto', sans-serif;/*ALTERE A URL_DA_IMAGEM_DE_FUNDO*/
+}
+
 body.dark {
   --bg-color: #00082F;
   --text-color: #FFFFFF;
 }
+
 body.pink {
   --bg-color: #FFF0F6;
   --text-color: #1F000B;
