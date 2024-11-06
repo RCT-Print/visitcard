@@ -22,7 +22,7 @@ body.dark {
 
 body {
   background: var(--bg-color) url('https://private-user-images.githubusercontent.com/180591159/383546801-0e79933b-e80e-4ed0-969a-239b2362fbe8.jpeg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzA4OTY4ODYsIm5iZiI6MTczMDg5NjU4NiwicGF0aCI6Ii8xODA1OTExNTkvMzgzNTQ2ODAxLTBlNzk5MzNiLWU4MGUtNGVkMC05NjlhLTIzOWIyMzYyZmJlOC5qcGVnP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MTEwNiUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDExMDZUMTIzNjI2WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9OTQ3MmY0MTc2YjkxMzQ3ZDkwOTQzNmU1MmQzZDdlYWVkZDYxYjIzYzMwZWMyODlmNjViMDIwYzAxNjI0ZmViOCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.K9LvUckdMU1MdRY5aJ8UXYfF0yAqfw8ACYC4ZOgW5bw') no-repeat center center fixed;
-  background-size: cover; /* Faz com que a imagem cubra todo o fundo */
+  background-size: cover;
   color: var(--text-color);
   font-family: 'Roboto', sans-serif;
 }
@@ -57,7 +57,7 @@ h1 {
 }
 
 img {
-  width: 100%; 
+  width: 100%;
 }
 
 ul {
